@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/game/static/media/2_ORK_sword.3eb87006.png"
   },
   {
-    "revision": "3fe539c575c1ac99ca91",
+    "revision": "aae47f0080386778e2e7",
     "url": "/game/static/css/main.6a6f81ec.chunk.css"
   },
   {
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/game/static/media/2_ORK_left leg.992df82d.png"
   },
   {
-    "revision": "3fe539c575c1ac99ca91",
-    "url": "/game/static/js/main.3fe539c5.chunk.js"
+    "revision": "aae47f0080386778e2e7",
+    "url": "/game/static/js/main.aae47f00.chunk.js"
   },
   {
     "revision": "5882ed3db068a6b9368dd90ef49d773d",
@@ -120,7 +120,7 @@ self.__precacheManifest = [
     "url": "/game/static/media/backgroundImage.e5d092aa.png"
   },
   {
-    "revision": "b0ffa92a0ff6f70cb6501c0b58e40195",
+    "revision": "526e2ad81d355c2cfd2f5a3e4ebc0265",
     "url": "/game/index.html"
   }
 ];
