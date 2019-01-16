@@ -1,0 +1,105 @@
+.heroModel .hat {
+  position: absolute;
+  top: 59%;
+  left: 30%;
+  z-index: 4;
+  animation: hatAnimation 2s infinite linear;
+}
+
+.heroModel .head {
+  position: absolute;
+  top: 72%;
+  left: 37%;
+  z-index: 3;
+  animation: heroHeadAnimation 2s infinite linear;
+}
+
+.heroModel .mantle {
+  position: absolute;
+  top: 75%;
+  left: 32%;
+  z-index: 2;
+}
+
+.heroModel .fingersLeft {
+  position: absolute;
+  top: 87%;
+  left: 28%;
+  transform: rotate(125deg);
+  z-index: 2;
+}
+
+.heroModel .fingersRight {
+  position: absolute;
+  top: 82%;
+  left: 68%;
+  transform: rotate(10deg);
+  z-index: 2;
+}
+
+.heroModel .fistLeft {
+  position: absolute;
+  top: 86%;
+  left: 27%;
+  transform: rotate(120deg);
+}
+
+.heroModel .fistRight {
+  position: absolute;
+  top: 81%;
+  left: 64%;
+}
+
+.heroModel .legLeft {
+  position: absolute;
+  top: 90%;
+  left: 35%;
+  transform: rotate(5deg);
+  z-index: 2;
+}
+
+.heroModel .legRight {
+  position: absolute;
+  top: 89%;
+  left: 55%;
+  transform: rotate(-5deg);
+  z-index: 2;
+}
+
+.heroModel .sleeveLeft {
+  position: absolute;
+  top: 82%;
+  left: 28%;
+  transform: rotate(40deg);
+  z-index: 2;
+}
+
+.heroModel .sleeveRight {
+  position: absolute;
+  top: 79%;
+  left: 53%;
+  transform: rotate(-50deg);
+}
+
+.heroModel .stick {
+  position: absolute;
+  top: 69%;
+  left: 63%;
+  transform: rotate(15deg);
+}
+
+@keyframes heroHeadAnimation {
+  from {top: 72%;}
+  25% {top: 73%;}
+  50% {top: 74%;}
+  75% {top: 73%;}
+  to {top: 72%;}
+}
+
+@keyframes hatAnimation {
+  from {top: 59%;}
+  25% {top: 60%;}
+  50% {top: 61%;}
+  75% {top: 60%;}
+  to {top: 59%;}
+}
